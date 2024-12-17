@@ -1,0 +1,35 @@
+.navbar {
+    box-shadow: 0px 0.1px 3px var(--one);
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--foor);
+    position: absolute;
+    left:  0;
+    bottom: 0px;
+    transition: .2s;
+}
+.nav-item:hover::after , .active-item::after{
+    width: 100%;
+}
+
+.nav-cart-conter {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: var(--foor);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7px;
+    right: -7px;
+}

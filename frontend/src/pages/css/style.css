@@ -1,0 +1,28 @@
+.product-size-item {
+    width: 40px;
+    height: 40px;
+    background-color: var(--three);
+    border: 1px solid #6e6e6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.active-product-size-item{
+    border: 2px solid var(--foor);
+}
+
+.product-description-nav {
+    padding: 12px;
+    border: 1px solid ;
+    cursor: pointer;
+}
+.active-product-description-nav {
+    background-color: var   (--three);
+}
+.product-desc {
+    border: 1px solid;
+    padding: 10px;
+}

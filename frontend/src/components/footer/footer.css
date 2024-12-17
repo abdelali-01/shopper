@@ -1,0 +1,12 @@
+.footer-social-media-icons i{
+    background-color: var(--two);
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--three);
+    border-radius: 12px;
+    cursor: pointer;
+}
