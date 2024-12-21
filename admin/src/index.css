@@ -1,0 +1,11 @@
+:root {
+    --one : #4335A7 ;
+    --two : #80C4E9 ;
+    --three : #FFF6E9;
+    --foor : #FF7F3E ;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
