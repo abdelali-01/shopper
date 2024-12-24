@@ -31,7 +31,7 @@ app.post("/upload", upload.single('image') , (req,res )=>{
         return res.status(400).json({ success: 0, message: "No file uploaded" });
     }
     res.json({ 
-        success : 1 ,
+        success : true ,
         image_url : `http://localhost:${port}/images/${req.file.filename}`
     });
 });
